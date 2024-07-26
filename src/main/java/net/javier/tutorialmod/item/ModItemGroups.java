@@ -2,6 +2,7 @@ package net.javier.tutorialmod.item;
 
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.javier.tutorialmod.TutorialMod;
+import net.javier.tutorialmod.block.ModBlocks;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
 import net.minecraft.registry.Registries;
@@ -20,6 +21,8 @@ public class ModItemGroups {
                     .entries(((displayContext, entries) -> {
                         entries.add(ModItems.RUBY);
                         entries.add(ModItems.RAW_RUBY);
+                        entries.add(ModBlocks.RUBY_BLOCK);
+                        entries.add(ModBlocks.RAW_RUBY_BLOCK);
                     }))
                     .build()
     );

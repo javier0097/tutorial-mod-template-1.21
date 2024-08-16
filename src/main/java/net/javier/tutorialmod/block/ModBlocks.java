@@ -1,6 +1,7 @@
 package net.javier.tutorialmod.block;
 
 import net.javier.tutorialmod.TutorialMod;
+import net.javier.tutorialmod.block.custom.SoundBlock;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
@@ -31,6 +32,9 @@ public class ModBlocks {
 
     public static final Block END_STONE_RUBY_ORE = registerBlock("end_stone_ruby_ore",
             new ExperienceDroppingBlock(UniformIntProvider.create(4, 7), AbstractBlock.Settings.copy(Blocks.END_STONE).strength(4f)));
+
+    public static Block SOUND_BLOCK = registerBlock("sound_block",
+            new SoundBlock(AbstractBlock.Settings.copy(Blocks.IRON_BLOCK)));
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);

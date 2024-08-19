@@ -30,6 +30,7 @@ public class ModItemGroups {
                         entries.add(ModBlocks.END_STONE_RUBY_ORE);
                         entries.add(ModBlocks.SOUND_BLOCK);
                         entries.add(ModItems.TOMATO);
+                        entries.add(ModItems.COAL_BRIQUETTE);
                     }))
                     .build()
     );

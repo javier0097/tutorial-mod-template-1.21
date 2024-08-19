@@ -2,6 +2,7 @@ package net.javier.tutorialmod;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.fabricmc.fabric.api.registry.FuelRegistry;
 import net.javier.tutorialmod.block.ModBlocks;
 import net.javier.tutorialmod.item.ModItemGroups;
 import net.javier.tutorialmod.item.ModItems;
@@ -17,5 +18,6 @@ public class TutorialMod implements ModInitializer {
 		ModItemGroups.registerItemGroups();
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
+		FuelRegistry.INSTANCE.add(ModItems.COAL_BRIQUETTE, 200);
 	}
 }

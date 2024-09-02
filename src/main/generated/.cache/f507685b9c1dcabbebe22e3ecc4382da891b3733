@@ -1,10 +1,10 @@
-// 1.21	2024-08-26T15:05:19.3834691	Tutorial mod/Block Loot Tables
+// 1.21	2024-08-31T10:50:41.4016985	Tutorial mod/Block Loot Tables
 865399c15f94da491a91fa8bc983868706016198 data\tutorialmod\loot_table\blocks\ruby_wall.json
 cc949d0a6d37d42537b3f6a8856eca6dfd258e66 data\tutorialmod\loot_table\blocks\sound_block.json
 a77a150c7851fbaf830081a89b0e3371ad62225d data\tutorialmod\loot_table\blocks\ruby_fence_gate.json
 62081eafd48f5225c703b74c6fd63794ec66bd4a data\tutorialmod\loot_table\blocks\ruby_ore.json
-2b9fbfd8c2464f605f355b3d9a7a0f18388e590b data\tutorialmod\loot_table\blocks\end_stone_ruby_ore.json
 6cbee860a058aff1471e8886d74965f5a072e318 data\tutorialmod\loot_table\blocks\raw_ruby_block.json
+2b9fbfd8c2464f605f355b3d9a7a0f18388e590b data\tutorialmod\loot_table\blocks\end_stone_ruby_ore.json
 7aa7decec75c884a168a193b073d9dbce7e37408 data\tutorialmod\loot_table\blocks\ruby_trapdoor.json
 42baeb68ad66299d1b64d8d57e38f99d26306a7f data\tutorialmod\loot_table\blocks\ruby_door.json
 10efab6566ae1503d35bf6302a55b1e7203fa2e6 data\tutorialmod\loot_table\blocks\ruby_fence.json

@@ -1,4 +1,4 @@
-// 1.21	2024-08-26T15:05:19.3844686	Tutorial mod/Model Definitions
+// 1.21	2024-08-31T10:50:41.4026983	Tutorial mod/Model Definitions
 eb1fa20950fba3a8d7186dc327c1ffb0dfce79b6 assets\tutorialmod\models\block\ruby_ore.json
 d07fad06b4e5a92363d8d18e034dbd6a8641d34d assets\tutorialmod\models\item\ruby.json
 6e7eaea3fa8573f129f5c17421cbe8a13925b79e assets\tutorialmod\models\block\ruby_wall_side.json
@@ -9,8 +9,8 @@ dac8730911a1737e4cdd2e70cfc8d32b0b0ba457 assets\tutorialmod\models\block\sound_b
 eda40d759fe364655011dcece6a5e8d31d2360bb assets\tutorialmod\models\block\ruby_fence_gate_wall_open.json
 d265fc031081fa3e6544db97d53afd58d746ef33 assets\tutorialmod\models\block\ruby_block.json
 2f7aa7c65ec46676e3fa73faa9031b0ff0fd7d5b assets\tutorialmod\models\block\ruby_fence_side.json
-974c24639cc3704db5aa877fbbc45b6010001267 assets\tutorialmod\models\block\ruby_door_top_left.json
 05f4e35e2dae88c1fb1c452d4c47ed12931e0ee8 assets\tutorialmod\models\block\ruby_pressure_plate.json
+974c24639cc3704db5aa877fbbc45b6010001267 assets\tutorialmod\models\block\ruby_door_top_left.json
 c814633148ab07a7934cdcd61f8a0792607a45b4 assets\tutorialmod\models\block\ruby_pressure_plate_down.json
 a8b0e15237f19e81c6da63b29b4f094fb26c8dc3 assets\tutorialmod\blockstates\ruby_button.json
 e1bcffd5dcbfb758a3668455d04d23c6efda02cf assets\tutorialmod\models\item\sound_block.json
@@ -31,11 +31,11 @@ eca1e2536785a75f5ec88793a97be882b558dc85 assets\tutorialmod\models\block\ruby_do
 81c58771c6f956628ada19712ede57133eb95836 assets\tutorialmod\models\item\end_stone_ruby_ore.json
 77d1255940a4af09a490e2e965a2abf8b5598824 assets\tutorialmod\models\block\ruby_door_top_right_open.json
 d1c7d3703f338d9fff435a03b7ed7cca39f1301a assets\tutorialmod\models\block\ruby_stairs.json
-69472e92e856588e8091eb6e44129489e646c19e assets\tutorialmod\blockstates\ruby_slab.json
 69c2d540b8ddbd4e551bd70db496c57ee6450e49 assets\tutorialmod\blockstates\nether_ruby_ore.json
+69472e92e856588e8091eb6e44129489e646c19e assets\tutorialmod\blockstates\ruby_slab.json
 fdfadf4fbed71a5d0dee8237f61cf4a05d5b93d4 assets\tutorialmod\models\item\raw_ruby_block.json
-7c3abe566317ec4c014da4ad23487b2068deddeb assets\tutorialmod\models\block\ruby_slab_top.json
 e07968e366945b5e5d6b0efc614f6d80bdd9a77a assets\tutorialmod\blockstates\ruby_fence_gate.json
+7c3abe566317ec4c014da4ad23487b2068deddeb assets\tutorialmod\models\block\ruby_slab_top.json
 052ea90c57cb2bf382cf7d3f9bc57b20ee4ea416 assets\tutorialmod\models\item\ruby_button.json
 a743381d7382b871f961ede3637b21dd7322ef0d assets\tutorialmod\models\item\tomato.json
 eaa086e1e5925260a7f03536f97f291f57135a23 assets\tutorialmod\models\item\ruby_wall.json
@@ -71,7 +71,7 @@ ce40c7f2f6c974fee61e3a348d0ece934498eba6 assets\tutorialmod\models\block\ruby_fe
 092919b82231c2f9cf3d44a1ce3e25e66f26a542 assets\tutorialmod\models\item\ruby_fence.json
 4a19a801e98fb8e89f84c029ba6b1121d2fd2145 assets\tutorialmod\models\block\ruby_fence_inventory.json
 a3afdbdc2d5bc2b6615dfde9596d1eeeb3dc4564 assets\tutorialmod\models\item\ruby_block.json
-28926c3209b0de80a200bb5e076fa2f060c1dc50 assets\tutorialmod\models\item\ruby_trapdoor.json
 0173dd43ffededa9b83ce8b777fb932cdf24875a assets\tutorialmod\models\block\ruby_trapdoor_open.json
+28926c3209b0de80a200bb5e076fa2f060c1dc50 assets\tutorialmod\models\item\ruby_trapdoor.json
 b244e86a0735f34cf32f3cdba7c8f55b6a45d5b4 assets\tutorialmod\models\block\ruby_wall_inventory.json
 ad5c254ef1c302341b0c5136373077cbe54b18ef assets\tutorialmod\models\block\ruby_door_bottom_left.json

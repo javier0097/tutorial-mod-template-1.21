@@ -41,6 +41,11 @@ public class ModItemGroups {
                         entries.add(ModBlocks.RUBY_PRESSURE_PLATE);
                         entries.add(ModBlocks.RUBY_DOOR);
                         entries.add(ModBlocks.RUBY_TRAPDOOR);
+                        entries.add(ModItems.RUBY_PICKAXE);
+                        entries.add(ModItems.RUBY_AXE);
+                        entries.add(ModItems.RUBY_SHOVEL);
+                        entries.add(ModItems.RUBY_SWORD);
+                        entries.add(ModItems.RUBY_HOE);
                     }))
                     .build()
     );

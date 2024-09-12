@@ -28,6 +28,15 @@ public class ModItems{
             new SwordItem(ModToolMaterial.RUBY, new Item.Settings().attributeModifiers(PickaxeItem.createAttributeModifiers(ModToolMaterial.RUBY, 5F, 3F))));
     public static final Item RUBY_HOE = registerItem("ruby_hoe",
             new HoeItem(ModToolMaterial.RUBY, new Item.Settings().attributeModifiers(PickaxeItem.createAttributeModifiers(ModToolMaterial.RUBY, 0, 0))));
+    public static final Item RUBY_HELMET = registerItem("ruby_helmet",
+            new ArmorItem(ModArmorMaterials.RUBY, ArmorItem.Type.HELMET, new Item.Settings().maxDamage(ArmorItem.Type.HELMET.getMaxDamage(ModArmorMaterials.RUBY_DURABILITY_MULTIPLIER))));
+    public static final Item RUBY_CHESTPLATE = registerItem("ruby_chestplate",
+            new ArmorItem(ModArmorMaterials.RUBY, ArmorItem.Type.CHESTPLATE, new Item.Settings().maxDamage(ArmorItem.Type.CHESTPLATE.getMaxDamage(ModArmorMaterials.RUBY_DURABILITY_MULTIPLIER))));
+    public static final Item RUBY_LEGGINGS = registerItem("ruby_leggings",
+            new ArmorItem(ModArmorMaterials.RUBY, ArmorItem.Type.LEGGINGS, new Item.Settings().maxDamage(ArmorItem.Type.LEGGINGS.getMaxDamage(ModArmorMaterials.RUBY_DURABILITY_MULTIPLIER))));
+    public static final Item RUBY_BOOTS = registerItem("ruby_boots",
+            new ArmorItem(ModArmorMaterials.RUBY, ArmorItem.Type.BOOTS, new Item.Settings().maxDamage(ArmorItem.Type.BOOTS.getMaxDamage(ModArmorMaterials.RUBY_DURABILITY_MULTIPLIER))));
+
 
     private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries) {
         entries.add(RUBY);

@@ -3,6 +3,7 @@ package net.javier.tutorialmod.item;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.javier.tutorialmod.TutorialMod;
+import net.javier.tutorialmod.block.ModBlocks;
 import net.javier.tutorialmod.item.custom.MetalDetectorItem;
 import net.javier.tutorialmod.item.custom.ModArmorItem;
 import net.minecraft.item.*;
@@ -37,7 +38,8 @@ public class ModItems{
             new ArmorItem(ModArmorMaterials.RUBY, ArmorItem.Type.LEGGINGS, new Item.Settings().maxDamage(ArmorItem.Type.LEGGINGS.getMaxDamage(ModArmorMaterials.RUBY_DURABILITY_MULTIPLIER))));
     public static final Item RUBY_BOOTS = registerItem("ruby_boots",
             new ArmorItem(ModArmorMaterials.RUBY, ArmorItem.Type.BOOTS, new Item.Settings().maxDamage(ArmorItem.Type.BOOTS.getMaxDamage(ModArmorMaterials.RUBY_DURABILITY_MULTIPLIER))));
-
+    public static final Item TOMATO_SEEDS = registerItem("tomato_seeds",
+            new AliasedBlockItem(ModBlocks.TOMATO_CROP, new Item.Settings()));
 
     private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries) {
         entries.add(RUBY);

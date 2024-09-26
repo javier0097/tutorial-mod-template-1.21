@@ -50,6 +50,7 @@ public class ModItemGroups {
                         entries.add(ModItems.RUBY_CHESTPLATE);
                         entries.add(ModItems.RUBY_LEGGINGS);
                         entries.add(ModItems.RUBY_BOOTS);
+                        entries.add(ModItems.TOMATO_SEEDS);
                     }))
                     .build()
     );

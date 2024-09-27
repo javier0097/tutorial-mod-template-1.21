@@ -1,6 +1,7 @@
 package net.javier.tutorialmod.block;
 
 import net.javier.tutorialmod.TutorialMod;
+import net.javier.tutorialmod.block.custom.CornCropBlock;
 import net.javier.tutorialmod.block.custom.SoundBlock;
 import net.javier.tutorialmod.block.custom.TomatoCropBlock;
 import net.minecraft.block.*;
@@ -60,8 +61,12 @@ public class ModBlocks {
 
     public static Block RUBY_TRAPDOOR = registerBlock("ruby_trapdoor",
             new TrapdoorBlock(BlockSetType.IRON, AbstractBlock.Settings.copy(Blocks.IRON_BLOCK).nonOpaque()));
+
     public static final Block TOMATO_CROP = Registry.register(Registries.BLOCK, Identifier.of(TutorialMod.MOD_ID, "tomato_crop"),
             new TomatoCropBlock(AbstractBlock.Settings.copy(Blocks.WHEAT)));
+
+    public static final Block CORN_CROP = Registry.register(Registries.BLOCK, Identifier.of(TutorialMod.MOD_ID, "corn_crop"),
+            new CornCropBlock(AbstractBlock.Settings.copy(Blocks.WHEAT)));
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);

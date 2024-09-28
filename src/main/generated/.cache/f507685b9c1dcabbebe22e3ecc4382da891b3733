@@ -1,8 +1,10 @@
-// 1.21	2024-09-27T12:44:31.7002887	Tutorial mod/Block Loot Tables
+// 1.21	2024-09-28T11:58:02.3910126	Tutorial mod/Block Loot Tables
 865399c15f94da491a91fa8bc983868706016198 data\tutorialmod\loot_table\blocks\ruby_wall.json
 cc949d0a6d37d42537b3f6a8856eca6dfd258e66 data\tutorialmod\loot_table\blocks\sound_block.json
 a77a150c7851fbaf830081a89b0e3371ad62225d data\tutorialmod\loot_table\blocks\ruby_fence_gate.json
+62b525cc60879fed99f9e678c1a93d25c0d3bdad data\tutorialmod\loot_table\blocks\dahlia.json
 62081eafd48f5225c703b74c6fd63794ec66bd4a data\tutorialmod\loot_table\blocks\ruby_ore.json
+681956b5e18f7d1d59f004198e5b9ad0c12192e3 data\tutorialmod\loot_table\blocks\potted_dahlia.json
 2b9fbfd8c2464f605f355b3d9a7a0f18388e590b data\tutorialmod\loot_table\blocks\end_stone_ruby_ore.json
 6cbee860a058aff1471e8886d74965f5a072e318 data\tutorialmod\loot_table\blocks\raw_ruby_block.json
 7aa7decec75c884a168a193b073d9dbce7e37408 data\tutorialmod\loot_table\blocks\ruby_trapdoor.json

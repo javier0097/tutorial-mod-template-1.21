@@ -5,6 +5,7 @@ import net.javier.tutorialmod.block.custom.CornCropBlock;
 import net.javier.tutorialmod.block.custom.SoundBlock;
 import net.javier.tutorialmod.block.custom.TomatoCropBlock;
 import net.minecraft.block.*;
+import net.minecraft.entity.effect.StatusEffects;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
@@ -67,6 +68,12 @@ public class ModBlocks {
 
     public static final Block CORN_CROP = Registry.register(Registries.BLOCK, Identifier.of(TutorialMod.MOD_ID, "corn_crop"),
             new CornCropBlock(AbstractBlock.Settings.copy(Blocks.WHEAT)));
+
+    public static Block DAHLIA = registerBlock("dahlia",
+            new FlowerBlock(StatusEffects.FIRE_RESISTANCE, 10, AbstractBlock.Settings.copy(Blocks.ALLIUM).nonOpaque().noCollision()));
+
+    public static final Block POTTED_DAHLIA = Registry.register(Registries.BLOCK, Identifier.of(TutorialMod.MOD_ID, "potted_dahlia"),
+            new FlowerPotBlock(DAHLIA, AbstractBlock.Settings.copy(Blocks.POTTED_ALLIUM).nonOpaque()));
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);

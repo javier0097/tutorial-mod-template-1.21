@@ -7,6 +7,7 @@ import net.javier.tutorialmod.block.ModBlocks;
 import net.javier.tutorialmod.item.ModArmorMaterials;
 import net.javier.tutorialmod.item.ModItemGroups;
 import net.javier.tutorialmod.item.ModItems;
+import net.javier.tutorialmod.util.ModCustomTrades;
 import net.javier.tutorialmod.util.ModLootTableModifiers;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -22,6 +23,7 @@ public class TutorialMod implements ModInitializer {
 		ModBlocks.registerModBlocks();
 		ModArmorMaterials.initialize();
 		ModLootTableModifiers.modifyLootTables();
+		ModCustomTrades.registerCustomTrades();
 		FuelRegistry.INSTANCE.add(ModItems.COAL_BRIQUETTE, 200);
 	}
 }

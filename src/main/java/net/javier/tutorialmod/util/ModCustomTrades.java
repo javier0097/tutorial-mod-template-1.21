@@ -1,7 +1,9 @@
 package net.javier.tutorialmod.util;
 
 import net.fabricmc.fabric.api.object.builder.v1.trade.TradeOfferHelper;
+import net.javier.tutorialmod.block.ModBlocks;
 import net.javier.tutorialmod.item.ModItems;
+import net.javier.tutorialmod.villager.ModVillagers;
 import net.minecraft.enchantment.EnchantmentLevelEntry;
 import net.minecraft.enchantment.Enchantments;
 import net.minecraft.item.EnchantedBookItem;
@@ -52,6 +54,25 @@ public class ModCustomTrades {
 //                }
 //
 //        );
+        TradeOfferHelper.registerVillagerOffers(ModVillagers.SOUND_MASTER, 1,
+                factories -> {
+                    factories.add((entity, random) -> new TradeOffer(
+                            new TradedItem(ModItems.CORN, 32),
+                            new ItemStack(ModBlocks.SOUND_BLOCK, 2),
+                            3, 12, 0.075f
+                    ));
+                }
+        );
+
+        TradeOfferHelper.registerVillagerOffers(ModVillagers.SOUND_MASTER, 2,
+                factories -> {
+                    factories.add((entity, random) -> new TradeOffer(
+                            new TradedItem(ModItems.RUBY_SWORD, 1),
+                            new ItemStack(ModItems.RUBY_HELMET, 1),
+                            2, 12, 0.075f
+                    ));
+                }
+        );
 
         TradeOfferHelper.registerWanderingTraderOffers(1,
                 factories -> {

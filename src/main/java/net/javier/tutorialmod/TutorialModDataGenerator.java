@@ -2,11 +2,7 @@ package net.javier.tutorialmod;
 
 import net.fabricmc.fabric.api.datagen.v1.DataGeneratorEntrypoint;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataGenerator;
-import net.javier.tutorialmod.datagen.ModBlockTagProvider;
-import net.javier.tutorialmod.datagen.ModItemTagProvider;
-import net.javier.tutorialmod.datagen.ModLootTableProvider;
-import net.javier.tutorialmod.datagen.ModModelProvider;
-import net.javier.tutorialmod.datagen.ModRecipeProvider;
+import net.javier.tutorialmod.datagen.*;
 
 public class TutorialModDataGenerator implements DataGeneratorEntrypoint {
 	@Override
@@ -18,5 +14,6 @@ public class TutorialModDataGenerator implements DataGeneratorEntrypoint {
 		pack.addProvider(ModLootTableProvider::new);
 		pack.addProvider(ModModelProvider::new);
 		pack.addProvider(ModRecipeProvider::new);
+		pack.addProvider(ModPoiTagProvider::new);
 	}
 }

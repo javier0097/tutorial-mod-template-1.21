@@ -9,6 +9,7 @@ import net.javier.tutorialmod.item.ModItemGroups;
 import net.javier.tutorialmod.item.ModItems;
 import net.javier.tutorialmod.util.ModCustomTrades;
 import net.javier.tutorialmod.util.ModLootTableModifiers;
+import net.javier.tutorialmod.villager.ModVillagers;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -25,5 +26,6 @@ public class TutorialMod implements ModInitializer {
 		ModLootTableModifiers.modifyLootTables();
 		ModCustomTrades.registerCustomTrades();
 		FuelRegistry.INSTANCE.add(ModItems.COAL_BRIQUETTE, 200);
+		ModVillagers.registerVillagers();
 	}
 }

@@ -1,15 +1,16 @@
 package net.javier.tutorialmod.item.custom;
 
+import net.javier.tutorialmod.sound.ModSounds;
 import net.javier.tutorialmod.util.ModTags;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
-import net.minecraft.block.Blocks;
 import net.minecraft.entity.EquipmentSlot;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemUsageContext;
 import net.minecraft.item.tooltip.TooltipType;
+import net.minecraft.sound.SoundCategory;
 import net.minecraft.text.Text;
 import net.minecraft.util.ActionResult;
 import net.minecraft.util.math.BlockPos;
@@ -34,6 +35,9 @@ public class MetalDetectorItem extends Item {
                 if (isValuableBlock(state)) {
                     outputValuableCoordinates(positionClicked.down(i), player, state.getBlock());
                     foundBlock = true;
+
+                    context.getWorld().playSound(null, positionClicked, ModSounds.METAL_DETECTOR_FOUND_ORE,
+                            SoundCategory.BLOCKS, 1.0F, 1.0F);
                     break;
                 }
             }

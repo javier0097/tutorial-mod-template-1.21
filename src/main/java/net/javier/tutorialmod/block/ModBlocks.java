@@ -4,6 +4,7 @@ import net.javier.tutorialmod.TutorialMod;
 import net.javier.tutorialmod.block.custom.CornCropBlock;
 import net.javier.tutorialmod.block.custom.SoundBlock;
 import net.javier.tutorialmod.block.custom.TomatoCropBlock;
+import net.javier.tutorialmod.sound.ModSounds;
 import net.minecraft.block.*;
 import net.minecraft.entity.effect.StatusEffects;
 import net.minecraft.item.BlockItem;
@@ -34,7 +35,7 @@ public class ModBlocks {
             new ExperienceDroppingBlock(UniformIntProvider.create(4, 7), AbstractBlock.Settings.copy(Blocks.END_STONE).strength(4f)));
 
     public static Block SOUND_BLOCK = registerBlock("sound_block",
-            new SoundBlock(AbstractBlock.Settings.copy(Blocks.IRON_BLOCK)));
+            new SoundBlock(AbstractBlock.Settings.copy(Blocks.IRON_BLOCK).sounds(ModSounds.SOUND_BLOCK_SOUNDS)));
 
     public static Block RUBY_STAIRS = registerBlock("ruby_stairs",
             new StairsBlock(ModBlocks.RUBY_BLOCK.getDefaultState(),AbstractBlock.Settings.copy(Blocks.IRON_BLOCK)));

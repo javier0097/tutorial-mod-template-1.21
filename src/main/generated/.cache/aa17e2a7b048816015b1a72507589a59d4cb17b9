@@ -1,4 +1,4 @@
-// 1.21	2024-10-28T14:16:00.8077124	Tutorial mod/Model Definitions
+// 1.21	2024-11-01T13:00:25.6486133	Tutorial mod/Model Definitions
 eb1fa20950fba3a8d7186dc327c1ffb0dfce79b6 assets\tutorialmod\models\block\ruby_ore.json
 d07fad06b4e5a92363d8d18e034dbd6a8641d34d assets\tutorialmod\models\item\ruby.json
 a549f90e4db430408e477092ac95e50c97648ec3 assets\tutorialmod\models\block\ruby_trapdoor_top.json
@@ -32,8 +32,8 @@ d1c7d3703f338d9fff435a03b7ed7cca39f1301a assets\tutorialmod\models\block\ruby_st
 e07968e366945b5e5d6b0efc614f6d80bdd9a77a assets\tutorialmod\blockstates\ruby_fence_gate.json
 8919d96c2b64e46c6045926e1b7452e940a00ea6 assets\tutorialmod\blockstates\potted_dahlia.json
 c0b0701701bb884e5b960972b7a75ff2a91f5632 assets\tutorialmod\models\item\ruby_leggings_amethyst_trim.json
-103235a015b0ddd108f686804374cea420251156 assets\tutorialmod\models\item\ruby_leggings_diamond_trim.json
 1cac72dfcf0953756533a59048855cf9639b0f27 assets\tutorialmod\models\block\ruby_button_pressed.json
+103235a015b0ddd108f686804374cea420251156 assets\tutorialmod\models\item\ruby_leggings_diamond_trim.json
 ab6d5bb86c6522fa3c42035f2a988d0cad069186 assets\tutorialmod\blockstates\ruby_door.json
 7e439f9c39ea91be588ddc78cf4cd903b5b9cb70 assets\tutorialmod\blockstates\sound_block.json
 4e9f1e7b5c4224f640daae5016c9d825c894ad71 assets\tutorialmod\models\item\ruby_helmet_iron_trim.json
@@ -85,6 +85,7 @@ df604a5827474a72c44e4b635f6e236bec0efdbf assets\tutorialmod\models\item\ruby_che
 b521bdfb42c4bd5cf9f0838ba2047b64f0d4c19c assets\tutorialmod\models\block\corn_crop_stage0.json
 8a6a11b0ab43cad6ba08918b85e20a987ebd08f3 assets\tutorialmod\models\item\ruby_helmet.json
 6126e26da373f9113d9e9be875b14a0d13857444 assets\tutorialmod\models\item\corn.json
+f746b64540daf2ab6302b3ec01a78490c48fc10b assets\tutorialmod\models\item\bar_brawl_music_disc.json
 c4fb1971fbcf884dcf3d21c40988fd0365b2541d assets\tutorialmod\models\item\ruby_boots_copper_trim.json
 e93e5d2c8c8e036c7383d253b6ed71d3f3cc7baa assets\tutorialmod\models\block\nether_ruby_ore.json
 8a4ea8978f18d5b07ab7d2093effbf9801c35e91 assets\tutorialmod\models\item\ruby_helmet_emerald_trim.json

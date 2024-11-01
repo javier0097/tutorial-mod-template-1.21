@@ -6,6 +6,7 @@ import net.javier.tutorialmod.TutorialMod;
 import net.javier.tutorialmod.block.ModBlocks;
 import net.javier.tutorialmod.item.custom.MetalDetectorItem;
 import net.javier.tutorialmod.item.custom.ModArmorItem;
+import net.javier.tutorialmod.sound.ModSounds;
 import net.minecraft.item.*;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
@@ -44,6 +45,8 @@ public class ModItems{
             new AliasedBlockItem(ModBlocks.CORN_CROP, new Item.Settings()));
     public static final Item CORN = registerItem("corn",
             new Item(new Item.Settings()));
+    public static final Item BAR_BRAWL_MUSIC_DISC = registerItem("bar_brawl_music_disc",
+            new Item(new Item.Settings().jukeboxPlayable(ModSounds.BAR_BRAWL_KEY).maxCount(1)));
 
     private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries) {
         entries.add(RUBY);

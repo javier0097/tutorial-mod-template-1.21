@@ -5,6 +5,7 @@ import net.javier.tutorialmod.TutorialMod;
 import net.javier.tutorialmod.block.ModBlocks;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
+import net.minecraft.item.Items;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.text.Text;
@@ -54,6 +55,7 @@ public class ModItemGroups {
                         entries.add(ModItems.CORN);
                         entries.add(ModItems.CORN_SEEDS);
                         entries.add(ModBlocks.DAHLIA);
+                        entries.add(ModItems.BAR_BRAWL_MUSIC_DISC);
                     }))
                     .build()
     );
